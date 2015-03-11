@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <base href="/">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ site.data.store.name }} {{ site.data.store.tagline }}</title>
+        <meta name="description" content="{{ site.data.store.description | truncate: 160 }}">
+        <link rel="stylesheet" href="{{ "/app.css" | prepend: site.baseurl }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+        <script>
+         WebFont.load({
+             google: {
+                 families: [
+                     'Lato:100,200,300',
+                     'Raleway:bold,100,200,300',
+                     'Exo 2:bold,100',
+                     'Open Sans:bold'
+                 ]
+             }
+         });
+        </script>
+    </head>
+
+    <body id="top">
+        <header>
+            <div class="wrapper">
+                <div class="meta-icon">
+                    <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
+                </div>
+                <div class="meta-who">
+                    <h1>{{ site.data.store.name }}</h1>
+                    <p>{{ site.data.store.tagline }}</p>
+                </div>
+                <nav class="meta-nav">
+                    <a href="#">Top</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="meta-space">
+                    <div class="meta-emphasis">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="portfolio">
+            <div class="wrapper">
+                {% for item in site.data.store.portfolio %}
+                <div class="portfolio-item">
+                    <div>
+                        <img data-slug="{{ item.slug }}" class="show-gallery" id="item-image-{{ item.slug }}" src="{{ site.data.store.image_base }}{{ item.thumbnail }}" alt="" />
+                    </div>
+                    <div>
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.description }}</p>
+                        <p class="portfolio-tags">
+                            {% for tag in item.tags %}
+                            <span class="portfolio-item-tag">{{ tag }}</span>
+                            {% endfor %}
+                        </p>
+                        <p><a href="{{ item.link_url }}" title="{{ item.link_title }}" class="portfolio-item-link">{{ item.link_title }}</a></p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrapper">
+                <div class="about-description">
+                    <h2>About {{ site.data.store.name }}</h2>
+                    {{ site.data.store.description }}
+                </div>
+                <div class="about-skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        {% for skill in site.data.store.skills %}
+                        <li>{{ skill }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="wrapper">
+
+                <section id="presence">
+                    <h2>{{ site.data.store.name }} Elsewhere</h2>
+                    {% for item in site.data.store.presence %}
+                    <div class="presence-item">
+                        <div class="presence-image">
+                            <img src="{{ site.data.store.image_base }}{{ item.thumbnail }}" alt="" />
+                        </div>
+                        <div class="presence-title">
+                            <h2>{{ item.title }}</h2>
+                            <p><a href="{{ item.link_url }}" title="{{ item.link_title }}">{{ item.link_title }}</a></p>
+                        </div>
+                        <div class="presence-description">
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </section>
+
+                <section id="contact" name="contact">
+                    <h2>Contact</h2>
+                    <p>{{ site.data.store.contact_description }}</p>
+                    <form method='POST' action="{{ site.data.store.msgshot }}" novalidate>
+                        <fieldset class="contact-form-left">
+                            <input type="email" name="email" placeholder="Email" class="naked" />
+                            <input type="text" name="name" placeholder="Name" class="naked" />
+                            <input type="text" name="phone" placeholder="Phone" class="naked" />
+                        </fieldset>
+                        <fieldset class="contact-form-right">
+                            <textarea name="message" placeholder="Your message" class="naked"></textarea>
+                            <br />
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                    <div id="contact-response"></div>
+                </section>
+
+                <section id="credits">
+                    <a ng-repeat="item in data" href="{{ item.url }}" title="{{ item.title }}">
+                        {{ item.title }}
+                    </a>
+                    <span class="right">
+                        <a href="mailto:{{ site.data.store.email }}">{{ site.data.store.email }}</a>&nbsp;&nbsp;
+                        <a href="tel:{{ site.data.store.phone }}">{{ site.data.store.phone }}</a>
+                    </span>
+                </section>
+
+            </div>
+        </footer>
+
+        <section id="gallery">
+            {% for item in site.data.store.portfolio %}
+            <div id="gallery-{{ item.slug }}">
+                <div class="gallery-item-header">
+                    <div class="gallery-item-title">
+                        {{ item.title }}
+                        <div class="gallery-tools">
+                            <span class="hide-gallery">[ X ]</span>
+                        </div>
+                    </div>
+                </div>
+                <div data-cycle-slides="> div"
+                     data-cycle-fx="scrollHorz"
+                     data-cycle-timeout="0"
+                     data-cycle-prev=".gallery-{{ item.slug }}-prev"
+                     data-cycle-next=".gallery-{{ item.slug }}-next"
+                     class="gallery-set cycle-slideshow">
+                    {% for thing in item.gallery %}
+                    <div class="gallery-item">
+                        <div class="gallery-item-image"><img src="{{ site.data.store.image_base }}{{ thing.image }}" alt="{{ thing.text }}"/></div>
+                        <div class="gallery-item-text">{{ thing.text }}</div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <span class="prev gallery-{{ item.slug }}-prev">&lt;&lt;Prev </span>
+                <span class="next gallery-{{ item.slug }}-next">Next &gt;&gt;</span>
+
+            </div>
+            {% endfor %}
+        </section>
+
+        <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="//malsup.github.io/min/jquery.cycle2.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+        <script src="{{ "/app.js" | prepend: site.baseurl }}"></script>
+
+  </body>
+
+</html>

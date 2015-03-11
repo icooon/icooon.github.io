@@ -1,0 +1,300 @@
+@import "vendor/adaptabl/src/index.less";
+
+@dominant: #fcc024;
+@mid-grey: grey;
+@dark-grey: darken(grey, 25%);
+
+a {
+    color: #09bbff;
+}
+
+body {
+    font-family: "Lato";
+    font-weight: 300
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    font-family: "Exo 2";
+    font-size: 30px;
+    letter-spacing: -0.0525em;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+p {
+    .margin-reset();
+    line-height: 1.3em;
+}
+
+button {
+    background-color: #ec008b;
+}
+
+input, textarea, button {
+    line-height: 2em;
+    font-size: 0.925em;
+}
+
+input {
+    margin-bottom: 0.5em;
+}
+
+textarea {
+    height: 5em;
+}
+
+.wrapper {
+    .wrapper(940px);
+}
+
+.right {
+    .-float;
+}
+
+.section-seperator(@size: 1px; @style: solid; @color: @mid-grey) {
+    border-bottom: @size @style @color;
+}
+
+header, #portfolio, #about, footer {
+    .layout-object();
+}
+
+header, #portfolio, #about {
+    .layout-object();
+    margin-bottom: 1.5em;
+}
+
+header .wrapper, #portfolio .wrapper, #about .wrapper {
+    .section-seperator(2px; dotted; @dark-grey);
+}
+
+header {
+
+}
+
+footer {
+    background-color: @dominant;
+    padding-top: 3em;
+}
+
+.header-object() {
+    height: 4em;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.meta-icon {
+    .layout-object(10%);
+    .header-object();
+    border-right: 1px solid @dark-grey;
+}
+
+.meta-who {
+    .layout-object(20%);
+    .header-object();
+    border-right: 1px solid @dark-grey;
+}
+
+.meta-nav {
+    .layout-object(10%);
+    .header-object();
+    font-size: 0.825em;
+
+    a {
+        display: block;
+        color: @dark-grey;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.meta-space {
+    .layout-object(60%);
+    .header-object();
+    position: relative;
+}
+
+.meta-emphasis {
+    .layout-object(50%);
+    .-float();
+    position: absolute;
+    bottom: -1em;
+    right: 0;
+    height: 1em;
+    background-color: @dominant;
+}
+#portfolio {
+
+}
+
+.portfolio-item {
+    .layout-object(22.5%);
+    .section-seperator();
+    margin-right: 2.75%;
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+
+    &:nth-child(4n+4) {
+        margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 24px;
+        height: 48px;
+        margin-top: 3px;
+    }
+
+    .gallery {
+    }
+}
+
+.portfolio-item-tag {
+    font-size: 0.75em;
+    //padding: 0 0.25em 0 0.25em;
+    margin: 0 0.5em 0 0;
+    //background-color: @dominant;
+    text-decoration: underline;
+}
+
+.portfolio-item-link {
+    font-size: 0.825em;
+}
+
+.portfolio-tags {
+    margin-top: 8px;
+}
+
+#about {
+
+}
+
+.about-description {
+    .layout-object(65%);
+}
+
+.about-skills {
+    .layout-object(35%);
+}
+
+#presence {
+    .layout-object(35%);
+    .padding-right(5%);
+
+    h2 {
+        padding-bottom: 1em;
+    }
+}
+
+.presence-item {
+    .layout-object();
+    .section-seperator(@color: @dark-grey);
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.presence-image {
+    .layout-object(50%);
+}
+
+.presence-title {
+    .layout-object(50%);
+}
+
+.presence-description {
+    .layout-object();
+}
+
+#contact {
+    .layout-object(65%);
+    padding-bottom:7.625em;
+    .section-seperator(@color: @dark-grey);
+
+    h2 {
+        padding-bottom: 1em;
+    }
+}
+
+input, textarea {
+    width: 100%;
+}
+
+button {
+    .-float();
+}
+
+.contact-form-left {
+    .layout-object(35%);
+    margin-right: 5%;
+}
+
+.contact-form-right {
+    .layout-object(60%);
+    background-color: white;
+}
+
+#credits {
+    .layout-object();
+    padding-bottom: 0.5em;
+    font-size: 0.75em;
+}
+
+#gallery {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-item-header {
+  .layout-object();
+}
+
+.gallery-item-button {
+  float: left;
+  width: 10%;
+}
+
+.show-gallery, .hide-gallery {
+  cursor: pointer;
+}
+
+.form-error {
+  border-width: 1px;
+  border-color: #ec008b;
+}
+
+.gallery-tools {
+  .-float();
+  .-alignment();
+}
+
+.gallery-set {
+  .layout-object();
+  .alignment(center);
+}
+
+.gallery-item {
+  .layout-object();
+  .alignment(center);
+}
+
+.prev, .next {
+  cursor: pointer;
+}

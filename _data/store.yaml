@@ -1,0 +1,282 @@
+msgshot: http://msgshot.appspot.com/
+image_base: https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/
+name: Ofir Liberman
+email: ofir@soulbit7.com
+phone:
+address:
+tagline: Designer
+icon: icon.jpg
+description: >
+  I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
+  I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
+contact_description: Fill in your info.
+skills:
+  - UX
+  - Design
+  - Games
+  - Philosophy
+
+presence:
+  - title: Some Site
+    description: Some short description here.
+    link_url: http://www.example.com/
+    link_title: Link Title
+    thumbnail: presence.jpg
+
+  - title: Some Site
+    description: Some short description here.
+    link_url: http://www.example.com/
+    link_title: Link Title
+    thumbnail: presence.jpg
+
+credits:
+  - title: Some Credit
+    url: http://www.example.com/
+
+  - title: Another Credit
+    url: http://www.example.com/
+
+portfolio:
+  - title: Lehava
+    slug: lehava
+    description: A crazy fuzzy dude running around on your iPad.
+    link_title: Lehava on the AppStore
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: LEHAVA_tn.png
+    gallery:
+      - image: LEHAVA_01.png
+        text: the text for it.
+      - image: LEHAVA_02.png
+        text: the text for it,
+      - image: LEHAVA_03.png
+        text: the text for it.
+
+  - title: SRGS ™
+    slug: srgs
+    description: The best accessories this side of Texas and north of London.
+    link_title: SRGS Website
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: srgs_tn.png
+    gallery:
+      - image: srgs_01.png
+        text: the text for it
+      - image: srgs_02.png
+        text: the text for it.
+      - image: srgs_03.png
+        text: the text for it.
+
+  - title: Tal Fiberglass
+    slug: tal-fiberglass
+    description: Doing fiberglass for Am Israel since 1965.
+    link_title: Fivergalss Website
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: TFG_tn.png
+    gallery:
+      - image: TFG_01.png
+        text: the text for it.
+      - image: TFG_02.png
+        text: the text for it.
+      - image: TFG_03.png
+        text: teh text for it.
+
+  - title: Buddha Burgers
+    slug: buddha-burgers
+    description: Meat is murder. Buddha Burgers is not.
+    link_title: BB Website
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: BB_tn.png
+    gallery:
+      - image: BB_01.png
+        text: the text for it.
+      - image: BB_02.png
+        text: the text for it.
+      - image: BB_03.png
+        text: the text for it.
+      - image: BB_04.png
+        text: the text for it.
+      - image: BB_05.png
+        text: the text for it.
+      - image: BB_06.png
+        text: the text for it.
+      - image: BB_07.png
+        text: the text for it.
+
+  - title: RRR ™
+    slug: rrr
+    description: You always wanted to flay a 1940's warplane right?
+    link_title: RRR Website
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: RRR_tn.png
+    gallery:
+      - image: RRR_01.png
+        text: the text for it.
+      - image: RRR_02.png
+        text: the text for it.
+
+  - title: Digital Handball
+    slug: digital-handball
+    description: An education iPad applet.
+    link_title: Handball Website
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: DHB_tn.png
+    gallery:
+      - image: DHB_01.png
+        text: the text for it.
+      - image: DHB_02.png
+        text: the text for it.
+      - image: DHB_03.png
+        text: the text for it.
+
+  - title: 1.2 Freeze
+    slug: 12-freeze
+    description: An iPad game for having fun with kids and adults.
+    link_title: Freeze on the AppStore
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: 12F_tn.png
+    gallery:
+      - image: 12F_01.png
+        text: the text for it.
+      - image: 12F_02.png
+        text: the text for it.
+      - image: 12F_03.png
+        text: the text for it.
+      - image: 12F_04.png
+
+  - title: AR Invaders
+    slug: ar-invaders
+    description: Groundbreaking augemted reality in the comfort of your iPhone.
+    link_title: AR Invaders on the AppStore
+    link_url: https://www.google.com/
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: ARI_tn.png
+    gallery:
+      - image: ARI_01.png
+        text: the text for it
+      - image: ARI_02.png
+        text: the text for it.
+      - image: ARI_03.png
+        text: the text for it.
+      - image: ARI_04.png
+        text: the text for it.
+
+  - title: Coloroll
+    slug: coloroll
+    description: Coloroll description thing.
+    link_title: Coloroll
+    link_url: http://www.example.com
+    tags:
+      - UX
+      - Product
+      - Development
+    thumbnail: coloroll_tn.png
+    gallery:
+      - image: coloroll_01.png
+        text: the text it.
+      - image: coloroll_02.png
+        text: the text for it.
+      - image: coloroll_03.png
+        text: the text for it.
+
+  - title: A Cat
+    slug: a-cat
+    description: A Cat is a band from TLV.
+    link_title: A Cat
+    link_url: http://www.example.com
+    tags:
+      - UX
+      - Product
+    thumbnail: HATUL_EP_tn.gif
+    gallery:
+      - image: HATUL_EP_01.gif
+        text: the text for it
+      - image: HATUL_EP_02.png
+        text: the text for it
+      - image: HATUL_EP_03.png
+        text: the text for it
+
+  - title: Logos
+    slug: logos
+    description: Logo work man,
+    link_title: Logos
+    link_url: http://www.example.com/
+    tags:
+      - Design
+    thumbnail: logos_tn.png
+    gallery:
+      - image: logos_01.png
+        text: the text for this.
+      - image: logos_02.png
+        text: the text for this.
+
+  - title: Petri
+    slug: petri
+    description: Petri is life
+    link_title: Petri
+    link_url: http://www.example.com/
+    tags:
+      - UX
+      - Design
+      - Development
+    thumbnail: petri_tn.png
+    gallery:
+      - image: petri_01.png
+        text: the text for this.
+      - image: petri_02.png
+        text: the text for this.
+
+  - title: Viewziq
+    slug: viewziq
+    description: When flash was cool.
+    link_title: Viewziq
+    link_url: http://www.example.com/
+    tags:
+      - UX
+      - Design
+      - Development
+    thumbnail: ZV_tn.png
+    gallery:
+      - image: ZV_01.png
+        text: the text for this.
+      - image: ZV_02.png
+        text: the text for this
+      - image: ZV_03.png
+        text: the text for this
+      - image: ZV_04.png
+        text: the text for this
+      - image: ZV_05.png
+        text: the text for this
+      - image: ZV_06.png
+        text: the text for this
+      - image: ZV_07.png
+        text: the text for this
