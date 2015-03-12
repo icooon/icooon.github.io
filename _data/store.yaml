@@ -4,33 +4,42 @@ name: Ofir Liberman
 email: ofir@soulbit7.com
 phone:
 address:
-tagline: Designer
+tagline: Multidisciplinary Design
 icon: icon.jpg
 description: >
   I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
   I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
-contact_description: Fill in your info.
+contact_description: Fill in the form below and I'll get back to you shortly.
 skills:
-  - UX
-  - Design
-  - Games
-  - Philosophy
+  - Game design
+  - UI design
+  - UX & product logic
+  - Illustration
+  - Logo design
+  - Branding
+  - Sound design
 
 presence:
-  - title: Some Site
+  - title: LinkedIn
     description: Some short description here.
     link_url: http://www.example.com/
     link_title: Link Title
     thumbnail: presence.jpg
 
-  - title: Some Site
+  - title: Bagamba Ltd.
+    description: Some short description here.
+    link_url: http://www.example.com/
+    link_title: Link Title
+    thumbnail: presence.jpg
+
+  - title: Anallogic
     description: Some short description here.
     link_url: http://www.example.com/
     link_title: Link Title
     thumbnail: presence.jpg
 
 credits:
-  - title: Some Credit
+  - title: Credit
     url: http://www.example.com/
 
   - title: Another Credit
@@ -73,7 +82,6 @@ portfolio:
       - image: srgs_03.png
         text: the text for it.
 
-  
   - title: Buddha Burgers
     slug: buddha-burgers
     description: Meat is murder. Buddha Burgers is not.
@@ -172,7 +180,7 @@ portfolio:
         text: the text for it.
       - image: ARI_04.png
         text: the text for it.
-        
+
   - title: Tal Fiberglass
     slug: tal-fiberglass
     description: Doing fiberglass for Am Israel since 1965.
@@ -190,7 +198,6 @@ portfolio:
         text: the text for it.
       - image: TFG_03.png
         text: teh text for it.
-
 
   - title: Coloroll
     slug: coloroll

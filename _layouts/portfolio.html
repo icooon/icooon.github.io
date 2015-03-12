@@ -25,23 +25,25 @@
     </head>
 
     <body id="top">
+
         <header>
             <div class="wrapper">
-                <div class="meta-icon">
-                    <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
-                </div>
-                <div class="meta-who">
-                    <h1>{{ site.data.store.name }}</h1>
-                    <p>{{ site.data.store.tagline }}</p>
-                </div>
-                <nav class="meta-nav">
-                    <a href="#">Top</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-                <div class="meta-space">
-                    <div class="meta-emphasis">
+                <div class="panel">
+                    <div class="icon">
+                        <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
                     </div>
+                </div>
+                <div class="panel">
+                    <div class="space"></div>
+                    <div class="who">
+                        <h1>{{ site.data.store.name }}</h1>
+                        <span>{{ site.data.store.tagline }}</span>
+                    </div>
+                    <nav class="nav">
+                        <a href="#" class="active">Works</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
                 </div>
             </div>
         </header>
@@ -49,7 +51,7 @@
         <section id="portfolio">
             <div class="wrapper">
                 {% for item in site.data.store.portfolio %}
-                <div class="portfolio-item">
+                <div class="work">
                     <div>
                         <img data-slug="{{ item.slug }}" class="show-gallery" id="item-image-{{ item.slug }}" src="{{ site.data.store.image_base }}{{ item.thumbnail }}" alt="" />
                     </div>
