@@ -143,21 +143,23 @@
 
         <section id="gallery">
             {% for item in site.data.store.portfolio %}
-            <div id="gallery-{{ item.slug }}">
-                <div class="gallery-item-header">
-                    <div class="gallery-item-title">
-                        {{ item.title }}
-                        <div class="gallery-tools">
-                            <span class="hide-gallery">[ X ]</span>
-                        </div>
-                    </div>
+
+            <div id="gallery-{{ item.slug }}" class="gallery">
+
+                <div class="header-panel">
+                    {{ item.title }}
                 </div>
+
+                <div class="prev-panel">
+                    <span class="prev gallery-{{ item.slug }}-prev">&#10094;</span>
+                </div>
+
                 <div data-cycle-slides="> div"
                      data-cycle-fx="scrollHorz"
                      data-cycle-timeout="0"
                      data-cycle-prev=".gallery-{{ item.slug }}-prev"
                      data-cycle-next=".gallery-{{ item.slug }}-next"
-                     class="gallery-set cycle-slideshow">
+                     class="set-panel cycle-slideshow">
                     {% for thing in item.gallery %}
                     <div class="gallery-item">
                         <div class="gallery-item-image"><img src="{{ site.data.store.image_base }}{{ thing.image }}" alt="{{ thing.text }}"/></div>
@@ -165,8 +167,11 @@
                     </div>
                     {% endfor %}
                 </div>
-                <span class="prev gallery-{{ item.slug }}-prev">&lt;&lt;Prev </span>
-                <span class="next gallery-{{ item.slug }}-next">Next &gt;&gt;</span>
+
+                <div class="next-panel">
+                    <span class="close hide-gallery">&times;</span>
+                    <span class="next gallery-{{ item.slug }}-next">&#10095;</span>
+                </div>
 
             </div>
             {% endfor %}

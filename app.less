@@ -82,17 +82,19 @@ header {
 
   .panel {
     height: 10em;
-    .layout-object(75%);
+    .layout-object(80%);
 
     &:first-child {
-      width: 25%;
+      width: 20%;
     }
   }
 
   .icon {
     .object();
     border-right: 1px solid @grey;
-    margin: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
 
   .space {
@@ -280,14 +282,76 @@ button {
 }
 
 #gallery {
+
+  .layout-object();
+  height: 100%;
   display: none;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
-  color: white;
-  width: 100%;
-  height: 100%;
+  background-color: white;
+
+  .gallery {
+    height: 100%;
+  }
+
+  .header-panel {
+    .layout-object();
+    height: 15%;
+    .alignment(center);
+    font-size: 2em;
+    padding-top: 3%;
+  }
+
+  .prev-panel {
+    .layout-object(15%);
+    height: 85%;
+  }
+
+  .next-panel {
+    .layout-object(15%);
+    height: 85%;
+  }
+
+  .set-panel {
+    .layout-object(70%);
+    height: 85%;
+  }
+
+  .prev {
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 5%;
+    cursor: pointer;
+    font-size: 8em;
+  }
+
+  .next {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 8em;
+  }
+
+  .close {
+    .object();
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    line-height: 0.875em;
+    .alignment(center);
+    display: block;
+    color: @grey;
+    background-color: @dominant;
+    font-size: 6em;
+  }
+
 }
 
 .gallery-item-header {
@@ -314,15 +378,11 @@ button {
 }
 
 .gallery-set {
-  .layout-object();
+  .layout-object(70%);
   .alignment(center);
 }
 
 .gallery-item {
   .layout-object();
   .alignment(center);
-}
-
-.prev, .next {
-  cursor: pointer;
 }
