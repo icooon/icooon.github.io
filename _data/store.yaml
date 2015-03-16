@@ -7,8 +7,7 @@ address:
 tagline: Multidisciplinary Design
 icon: icon.jpg
 description: >
-  I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
-  I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back. I am a rock and roller from way back.
+  I am a multidisciplinary designer with over 9 years of commercial and academic experience in Israel and abroad. As a lecturer in interactive design at Shenkar and HIT, two of the leading design colleges in Israel, I mentor the cream of Israel’s designers on the frontiers of design and technology. As a design professional, I provide turnkey solutions for clients from idea to implementation.
 contact_description: Fill in the form below and I'll get back to you shortly.
 skills:
   - Game design
@@ -48,13 +47,11 @@ credits:
 portfolio:
   - title: Lehava
     slug: lehava
-    description: A crazy fuzzy dude running around on your iPad.
+    description: A character design for a mobile game, based a brief of energetic, amorphic & powerful.
     link_title: Lehava on the AppStore
     link_url: https://www.google.com/
     tags:
-      - UX
-      - Product
-      - Development
+      - Illustration
     thumbnail: LEHAVA_tn.png
     gallery:
       - image: LEHAVA_01.png
@@ -66,13 +63,13 @@ portfolio:
 
   - title: SRGS ™
     slug: srgs
-    description: The best accessories this side of Texas and north of London.
+    description: An online sales catalogue for UK-based textile importer. This catalogue enables way communication; new goods to SRGS clients, and sales orders back for the company.
     link_title: SRGS Website
     link_url: https://www.google.com/
     tags:
       - UX
-      - Product
-      - Development
+      - Branding
+      - UI
     thumbnail: srgs_tn.png
     gallery:
       - image: srgs_01.png
@@ -84,13 +81,11 @@ portfolio:
 
   - title: Buddha Burgers
     slug: buddha-burgers
-    description: Meat is murder. Buddha Burgers is not.
-    link_title: BB Website
+    description: Brand design for an Israeli vegan food chain.
+    link_title: Buddha Burgers Website
     link_url: https://www.google.com/
     tags:
-      - UX
-      - Product
-      - Development
+      - Branding
     thumbnail: BB_tn.png
     gallery:
       - image: BB_01.png
@@ -110,13 +105,13 @@ portfolio:
 
   - title: RRR ™
     slug: rrr
-    description: You always wanted to flay a 1940's warplane right?
-    link_title: RRR Website
+    description: ✈ Rrrr™ turns your iPhone into a sound generating toy, presenting a new concept in user experience.
+    link_title: RRR on the AppStore
     link_url: https://www.google.com/
     tags:
-      - UX
       - Product
-      - Development
+      - UI
+      - Sound Design
     thumbnail: RRR_tn.png
     gallery:
       - image: RRR_01.png
@@ -126,13 +121,12 @@ portfolio:
 
   - title: Digital Handball
     slug: digital-handball
-    description: An education iPad applet.
+    description: An educational application that aims to teach maths to kids.
     link_title: Handball Website
     link_url: https://www.google.com/
     tags:
       - UX
-      - Product
-      - Development
+      - UI
     thumbnail: DHB_tn.png
     gallery:
       - image: DHB_01.png
@@ -144,13 +138,15 @@ portfolio:
 
   - title: 1.2 Freeze
     slug: 12-freeze
-    description: An iPad game for having fun with kids and adults.
-    link_title: Freeze on the AppStore
+    description: 1.2 Freeze is a new iOS adaptation of a worldwide social game for kids, presenting a new concept in mobile user experience.
+    link_title: 1.2 Freeze on the AppStore
     link_url: https://www.google.com/
+    credits: Development by Dagan Shtifman; Illustration by Yonatan Popper
     tags:
+      - Game Design
       - UX
-      - Product
-      - Development
+      - UI
+      - Sound Design
     thumbnail: 12F_tn.png
     gallery:
       - image: 12F_01.png
@@ -163,13 +159,15 @@ portfolio:
 
   - title: AR Invaders
     slug: ar-invaders
-    description: Groundbreaking augemted reality in the comfort of your iPhone.
+    description: The award-winning augmented reality game mobile game. Released in 2009, AR Invaders was a groundbreaking project in UX in the mobile world.
     link_title: AR Invaders on the AppStore
     link_url: https://www.google.com/
+    credits: Development by Dagan Shtifman
     tags:
-      - UX
-      - Product
-      - Development
+      - Concept
+      - Game Design
+      - UI
+      - Sound Design
     thumbnail: ARI_tn.png
     gallery:
       - image: ARI_01.png
@@ -183,13 +181,13 @@ portfolio:
 
   - title: Tal Fiberglass
     slug: tal-fiberglass
-    description: Doing fiberglass for Am Israel since 1965.
-    link_title: Fivergalss Website
+    description: Brand and web design for a local business.
+    link_title: Tal Fiberglass Website
     link_url: https://www.google.com/
     tags:
+      - Branding
       - UX
-      - Product
-      - Development
+      - UI
     thumbnail: TFG_tn.png
     gallery:
       - image: TFG_01.png
@@ -201,13 +199,13 @@ portfolio:
 
   - title: Coloroll
     slug: coloroll
-    description: Coloroll description thing.
-    link_title: Coloroll
+    description: An iOS game for color lovers.
+    link_title: Coloroll on the AppStore
     link_url: http://www.example.com
     tags:
       - UX
-      - Product
-      - Development
+      - UI
+      - Sound Design
     thumbnail: coloroll_tn.png
     gallery:
       - image: coloroll_01.png
@@ -219,12 +217,11 @@ portfolio:
 
   - title: A Cat
     slug: a-cat
-    description: A Cat is a band from TLV.
-    link_title: A Cat
-    link_url: http://www.example.com
+    description: Picnic with Robots EP design.
+    link_title:
+    link_url:
     tags:
-      - UX
-      - Product
+      - Print
     thumbnail: HATUL_EP_tn.gif
     gallery:
       - image: HATUL_EP_01.gif
@@ -266,13 +263,16 @@ portfolio:
 
   - title: Viewziq
     slug: viewziq
-    description: When flash was cool.
-    link_title: Viewziq
+    description: A software tool for composing and playing sounds & visuals that interact.
+    link_title: Viewziq Website
     link_url: http://www.example.com/
+    credits: Music by Paul Walsh
     tags:
+      - Concept
       - UX
-      - Design
-      - Development
+      - UI
+      - Graphic Design
+      - Code
     thumbnail: ZV_tn.png
     gallery:
       - image: ZV_01.png
@@ -289,3 +289,43 @@ portfolio:
         text: the text for this
       - image: ZV_07.png
         text: the text for this
+
+
+  - title: The Three Radical
+    slug: three-radical
+    description: Interactive sculpture that encapsulates the Hebrew language roots in a black box.
+    tags:
+      - Concept
+      - Code
+      - Product Design
+      - Electronics
+    thumbnail: ZV_tn.png
+    gallery:
+      - image: ZV_01.png
+        text: the text for this.
+      - image: ZV_02.png
+        text: the text for this
+      - image: ZV_03.png
+        text: the text for this
+      - image: ZV_04.png
+        text: the text for this
+      - image: ZV_05.png
+        text: the text for this
+      - image: ZV_06.png
+        text: the text for this
+      - image: ZV_07.png
+        text: the text for this
+
+  - title: Reach
+    slug: reach
+    description: A smart mailing list service for small business.
+    tags:
+      - Branding
+      - UX
+      - UI
+    thumbnail: petri_tn.png
+    gallery:
+      - image: petri_01.png
+        text: the text for this.
+      - image: petri_02.png
+        text: the text for this.
