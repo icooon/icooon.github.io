@@ -323,9 +323,9 @@ portfolio:
       - Branding
       - UX
       - UI
-    thumbnail: petri_tn.png
+    thumbnail: reach_tn.png
     gallery:
-      - image: petri_01.png
+      - image: reach_01.png
         text: the text for this.
-      - image: petri_02.png
+      - image: reach_02.png
         text: the text for this.
