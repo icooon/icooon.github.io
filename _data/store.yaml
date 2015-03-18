@@ -244,7 +244,9 @@ portfolio:
         text: the text for this.
       - image: logos_02.png
         text: the text for this.
-
+      - image: logos_03.png
+        text: the text for this.
+        
   - title: Petri
     slug: petri
     description: An experimental concept in future branding, Petri is a video clip that generates 300 different flyers for a dance party every time it runs.
