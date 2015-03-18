@@ -290,7 +290,6 @@ portfolio:
       - image: ZV_07.png
         text: the text for this
 
-
   - title: The Three Radical
     slug: three-radical
     description: Interactive sculpture that encapsulates the Hebrew language roots in a black box.
@@ -299,22 +298,17 @@ portfolio:
       - Code
       - Product Design
       - Electronics
-    thumbnail: ZV_tn.png
+    thumbnail: T3R_tn.png
     gallery:
-      - image: ZV_01.png
+      - image: T3R_01.png
         text: the text for this.
-      - image: ZV_02.png
+      - image: T3R_02.png
         text: the text for this
-      - image: ZV_03.png
+      - image: T3R_03.png
         text: the text for this
-      - image: ZV_04.png
+      - image: T3R_04.png
         text: the text for this
-      - image: ZV_05.png
-        text: the text for this
-      - image: ZV_06.png
-        text: the text for this
-      - image: ZV_07.png
-        text: the text for this
+      - image: T3r_05.png
 
   - title: Reach
     slug: reach
