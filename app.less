@@ -7,6 +7,12 @@
 @link: #09bbff;
 @gutter: 1%;
 
+.nav-mixin() {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 3em;
+}
+
 body {
   font-family: "Raleway";
   font-weight: 300
@@ -76,25 +82,31 @@ header {
   .section-margin();
 
   .wrapper {
+
+  }
+
+  .internal-wrapper {
+    .layout-object(98%);
+    margin-left: 1%;
+    margin-right: 1%;
     .section-seperator(2px; dotted; @dark-grey);
     .section-seperator(2px; dotted; @dark-grey; @position: top);
   }
 
   .panel {
     height: 10em;
-    .layout-object(80%);
+    .layout-object(85%);
 
     &:first-child {
-      width: 20%;
+      width: 15%;
     }
   }
 
   .icon {
-    .object();
     border-right: 1px solid @grey;
     margin-top: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-right: 3%;
+    margin-left: -3%;
   }
 
   .space {
@@ -103,12 +115,18 @@ header {
   }
 
   .who {
-    .layout-object(70%);
+    .layout-object(68%);
+    margin-left: 2%;
     height: 4em;
 
     h1 {
       text-transform: uppercase;
       margin-bottom: 0;
+      font-size: 1.125em;
+    }
+
+    span {
+      font-size: 0.875em;
     }
   }
 
@@ -122,7 +140,6 @@ header {
     a {
       display: inline-block;
       width: 4em;
-      height: 4em;
       color: @dark-grey;
       text-decoration: none;
       text-align: center;
@@ -133,6 +150,27 @@ header {
 
       &.active {
         background-color: @dominant;
+      }
+
+      &.work-nav {
+        .nav-mixin();
+        background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/work.png');
+      }
+
+      &.about-nav {
+        .nav-mixin();
+        background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/about.png');
+      }
+
+      &.contact-nav {
+        .nav-mixin();
+        background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/contact.png');
+      }
+
+      span {
+        margin-top: 1.5em;
+        display: block;
+        font-size: 0.875em;
       }
     }
   }
@@ -199,7 +237,7 @@ header {
     text-decoration: underline;
 }
 
-.portfolio-item-link {
+.portfolio-item-link, .portfolio-item-credits {
     font-size: 0.825em;
 }
 
@@ -385,4 +423,24 @@ button {
 .gallery-item {
   .layout-object();
   .alignment(center);
+}
+
+.nav-mixin() {
+  background-repeat: no-repeat;
+  height: 3em;
+  padding-top: 1em;
+}
+.work-nav {
+  .nav-mixin();
+  background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/work.png');
+}
+
+.about-nav {
+  .nav-mixin();
+  background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/about.png');
+}
+
+.contact-nav {
+  .nav-mixin();
+  background-image: url('https://dl.dropboxusercontent.com/u/15809489/ofir-liberman.com/img/contact.png');
 }

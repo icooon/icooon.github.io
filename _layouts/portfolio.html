@@ -17,7 +17,11 @@
                      'Lato:100,200,300',
                      'Raleway:bold,100,200,300',
                      'Exo 2:bold,100',
-                     'Open Sans:bold'
+                     'Open Sans:bold',
+                     'Arvo:bold,700',
+                     'Oswald:300,400',
+                     'Montserrat:400',
+                     'Sofia:400'
                  ]
              }
          });
@@ -28,22 +32,24 @@
 
         <header>
             <div class="wrapper">
-                <div class="panel">
-                    <div class="icon">
-                        <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
+                <div class="internal-wrapper">
+                    <div class="panel">
+                        <div class="icon">
+                            <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
+                        </div>
                     </div>
-                </div>
-                <div class="panel">
-                    <div class="space"></div>
-                    <div class="who">
-                        <h1>{{ site.data.store.name }}</h1>
-                        <span>{{ site.data.store.tagline }}</span>
+                    <div class="panel">
+                        <div class="space"></div>
+                        <div class="who">
+                            <h1>{{ site.data.store.name }}</h1>
+                            <span>{{ site.data.store.tagline }}</span>
+                        </div>
+                        <nav class="nav">
+                            <a href="#" class="work-nav active"><span>Works</span></a>
+                            <a href="#about" class="about-nav"><span>About</span></a>
+                            <a href="#contact" class="contact-nav"><span>Contact</span></a>
+                        </nav>
                     </div>
-                    <nav class="nav">
-                        <a style="line-height: 0.875em;" href="#" class="active"><img src="{{ site.data.store.image_base }}work.png">Works</a>
-                        <a style="line-height: 0.875em;" href="#about"><img src="{{ site.data.store.image_base }}about.png">About</a>
-                        <a style="line-height: 0.875em;" href="#contact"><img src="{{ site.data.store.image_base }}contact.png">Contact</a>
-                    </nav>
                 </div>
             </div>
         </header>
@@ -64,6 +70,7 @@
                             {% endfor %}
                         </p>
                         <p><a href="{{ item.link_url }}" title="{{ item.link_title }}" class="portfolio-item-link">{{ item.link_title }}</a></p>
+                        {% if item.credits %}<p class="portfolio-item-credits">Credits: {{ item.credits }}</p>{% endif %}
                     </div>
                 </div>
                 {% endfor %}
