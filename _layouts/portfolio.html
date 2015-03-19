@@ -18,7 +18,7 @@
                      'Raleway:bold,100,200,300',
                      'Exo 2:bold,100',
                      'Open Sans:bold',
-                     'Arvo:bold,700',
+                     'Arvo:400,700',
                      'Oswald:300,400',
                      'Montserrat:400',
                      'Sofia:400'
@@ -80,8 +80,8 @@
         <section id="about">
             <div class="wrapper">
                 <div class="about-description">
-                    <h2>About {{ site.data.store.name }}</h2>
-                    {{ site.data.store.description }}
+                    <h2>About</h2>
+                    <p>{{ site.data.store.description }}</p>
                 </div>
                 <div class="about-skills">
                     <h2>Skills</h2>
@@ -98,7 +98,7 @@
             <div class="wrapper">
 
                 <section id="presence">
-                    <h2>{{ site.data.store.name }} Elsewhere</h2>
+                    <h2>Elsewhere</h2>
                     {% for item in site.data.store.presence %}
                     <div class="presence-item">
                         <div class="presence-image">

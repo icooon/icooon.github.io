@@ -275,8 +275,16 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  font-family: "Times New Roman";
+  font-family: "Oswald";
   font-size: 1.5em;
+}
+h2 {
+  font-size: 1.8em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: square;
 }
 a {
   color: #09bbff;
@@ -368,7 +376,7 @@ header .who {
 header .who h1 {
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 1.125em;
+  font-size: 1.5em;
 }
 header .who span {
   font-size: 0.875em;
@@ -442,7 +450,7 @@ header .nav a span {
   float: left;
   width: 23%;
   border-bottom: 1px solid grey;
-  height: 30em;
+  height: 35em;
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 3em;
@@ -452,10 +460,13 @@ header .nav a span {
   height: 100%;
 }
 #portfolio .work h2 {
-  font-size: 30px;
-  line-height: 24px;
-  height: 48px;
-  margin-top: 3px;
+  font-size: 1.8em;
+  line-height: 1.0675em;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-family: "Oswald";
+  text-transform: uppercase;
 }
 #about {
   -webkit-box-sizing: border-box;
@@ -467,8 +478,16 @@ header .nav a span {
   padding-top: 3em;
   padding-bottom: 3em;
 }
-#about .wrapper {
-  border-bottom: 2px dotted #404040;
+#about .about-skills h2 {
+  font-family: "Oswald";
+  margin-left: 20px;
+  margin-top: 3px;
+  line-height: 1em;
+}
+#about .about-description h2 {
+  font-family: "Oswald";
+  margin-top: 3px;
+  line-height: 1em;
 }
 #footer {
   -webkit-box-sizing: border-box;
@@ -496,14 +515,24 @@ header .nav a span {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  width: 65%;
+  width: 47.5%;
+  border-bottom: 1px solid grey;
+  margin-right: 7.5%;
+  height: 20em;
+}
+.about-description p {
+  font-size: 1em;
+  line-height: 1.375em;
+  margin: 1em 0;
 }
 .about-skills {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
-  width: 35%;
+  width: 45%;
+  border-bottom: 1px solid grey;
+  height: 20em;
 }
 #presence {
   -webkit-box-sizing: border-box;

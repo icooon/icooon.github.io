@@ -23,19 +23,13 @@ presence:
     description: Some short description here.
     link_url: http://www.example.com/
     link_title: Link Title
-    thumbnail: presence.jpg
-
-  - title: Bagamba Ltd.
-    description: Some short description here.
-    link_url: http://www.example.com/
-    link_title: Link Title
-    thumbnail: presence.jpg
+    thumbnail: linkedin_img.png
 
   - title: Anallogic
     description: Some short description here.
     link_url: http://www.example.com/
     link_title: Link Title
-    thumbnail: presence.jpg
+    thumbnail: ANALLOGIC_img.png
 
 credits:
   - title: Credit
@@ -246,7 +240,7 @@ portfolio:
         text: the text for this.
       - image: logos_03.png
         text: the text for this.
-        
+
   - title: Petri
     slug: petri
     description: An experimental concept in future branding, Petri is a video clip that generates 300 different flyers for a dance party every time it runs.
