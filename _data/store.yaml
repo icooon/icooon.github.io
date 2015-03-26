@@ -73,7 +73,7 @@ portfolio:
       - image: srgs_03.png
         text: the text for it.
      
-    - title: Prints
+  - title: Prints
     slug: Prints
     description: An online sales catalogue for UK-based textile importer. This catalogue enables way communication; new goods to SRGS clients, and sales orders back for the company.
     link_title: SRGS Website
