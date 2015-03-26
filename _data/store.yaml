@@ -42,8 +42,6 @@ portfolio:
   - title: Lehava
     slug: lehava
     description: A character design for a mobile game, based a brief of energetic, amorphic & powerful.
-    link_title:
-    link_url: 
     tags:
       - Illustration
     thumbnail: LEHAVA_tn.png
@@ -58,8 +56,6 @@ portfolio:
   - title: SRGS ™
     slug: srgs
     description: An online sales catalogue for UK-based textile importer. This catalogue enables way communication; new goods to SRGS clients, and sales orders back for the company.
-    link_title: 
-    link_url:
     tags:
       - UX
       - Branding
@@ -76,8 +72,6 @@ portfolio:
   - title: Prints
     slug: Prints
     description: A collection of printed items i have designed.
-    link_title:
-    link_url: 
     tags:
       - Graphic Design
       - Branding
@@ -126,8 +120,6 @@ portfolio:
   - title: Buddha Burgers
     slug: buddha-burgers
     description: Brand design for an Israeli vegan food chain.
-    link_title: 
-    link_url: 
     tags:
       - Branding
     thumbnail: BB_tn.png
@@ -150,8 +142,6 @@ portfolio:
   - title: Digital Handball
     slug: digital-handball
     description: An educational application that aims to teach maths to kids.
-    link_title:
-    link_url: 
     tags:
       - UX
       - UI
@@ -210,8 +200,6 @@ portfolio:
   - title: Tal Fiberglass
     slug: tal-fiberglass
     description: Brand and web design for a local business.
-    link_title: 
-    link_url: 
     tags:
       - Branding
       - UX
@@ -262,8 +250,6 @@ portfolio:
   - title: Logos
     slug: logos
     description: Logo work man,
-    link_title: 
-    link_url: 
     tags:
       - Design
     thumbnail: logos_tn.png
@@ -278,8 +264,6 @@ portfolio:
   - title: Petri
     slug: petri
     description: An experimental concept in future branding, Petri is a video clip that generates 300 different flyers for a dance party every time it runs.
-    link_title: 
-    link_url: 
     tags:
       - UX
       - Design
@@ -294,8 +278,6 @@ portfolio:
   - title: Viewziq
     slug: viewziq
     description: A software tool for composing and playing sounds & visuals that interact.
-    link_title: 
-    link_url: 
     credits: Music by Paul Walsh
     tags:
       - Concept
