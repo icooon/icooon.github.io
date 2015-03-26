@@ -72,7 +72,57 @@ portfolio:
         text: the text for it.
       - image: srgs_03.png
         text: the text for it.
-
+     
+    - title: Prints
+    slug: Prints
+    description: An online sales catalogue for UK-based textile importer. This catalogue enables way communication; new goods to SRGS clients, and sales orders back for the company.
+    link_title: SRGS Website
+    link_url: https://www.google.com/
+    tags:
+      - Graphic Design
+      - Branding
+      - Print Production
+    thumbnail: prints_tn.png
+    gallery:
+      - image: HSS_1.png
+        text: the text for it
+      - image: HSS_2.png
+        text: the text for it.
+      - image: HSS_3.png
+        text: the text for it.
+      - image: HSS_4.png
+        text: the text for it.
+      - image: HS_1.png
+        text: the text for it.
+      - image: HS_2.png
+        text: the text for it.
+      - image: HS_3.png
+        text: the text for it.
+      - image: HS_4.png
+        text: the text for it.
+      - image: DHY_1.png
+        text: the text for it.
+      - image: DHY_2.png
+        text: the text for it.
+      - image: DHY_3.png
+        text: the text for it.
+        
+  - title: RRR ™
+    slug: rrr
+    description: ✈ Rrrr™ turns your iPhone into a sound generating toy, presenting a new concept in user experience.
+    link_title: RRR on the AppStore
+    link_url: https://www.google.com/
+    tags:
+      - Product
+      - UI
+      - Sound Design
+    thumbnail: RRR_tn.png
+    gallery:
+      - image: RRR_01.png
+        text: the text for it.
+      - image: RRR_02.png
+        text: the text for it.
+        
   - title: Buddha Burgers
     slug: buddha-burgers
     description: Brand design for an Israeli vegan food chain.
@@ -95,22 +145,6 @@ portfolio:
       - image: BB_06.png
         text: the text for it.
       - image: BB_07.png
-        text: the text for it.
-
-  - title: RRR ™
-    slug: rrr
-    description: ✈ Rrrr™ turns your iPhone into a sound generating toy, presenting a new concept in user experience.
-    link_title: RRR on the AppStore
-    link_url: https://www.google.com/
-    tags:
-      - Product
-      - UI
-      - Sound Design
-    thumbnail: RRR_tn.png
-    gallery:
-      - image: RRR_01.png
-        text: the text for it.
-      - image: RRR_02.png
         text: the text for it.
 
   - title: Digital Handball
