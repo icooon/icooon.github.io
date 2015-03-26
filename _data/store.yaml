@@ -39,6 +39,24 @@ credits:
     url: http://www.example.com/
 
 portfolio:
+  - title: Reach
+    slug: reach
+    description: A smart mailing list service for small business.
+    tags:
+      - Branding
+      - UX
+      - UI
+    thumbnail: reach_tn.png
+    gallery:
+      - image: reach_01.png
+        text: the text for this.
+      - image: reach_02.png
+        text: the text for this.
+      - image: reach_03.png
+        text: the text for this.
+      - image: reach_04.png
+        text: the text for this.
+        
   - title: AR Invaders
     slug: ar-invaders
     description: The award-winning augmented reality mobile game. Released in 2009, AR Invaders was a groundbreaking project in UX in the mobile world.
@@ -61,24 +79,26 @@ portfolio:
       - image: ARI_04.png
         text: the text for it.
         
-  - title: Reach
-    slug: reach
-    description: A smart mailing list service for small business.
+  - title: The Three Radical
+    slug: three-radical
+    description: Interactive sculpture that encapsulates the Hebrew language roots in a black box.
     tags:
-      - Branding
-      - UX
-      - UI
-    thumbnail: reach_tn.png
+      - Concept
+      - Code
+      - Product Design
+      - Electronics
+    thumbnail: T3R_tn.png
     gallery:
-      - image: reach_01.png
+      - image: T3R_01.png
         text: the text for this.
-      - image: reach_02.png
-        text: the text for this.
-      - image: reach_03.png
-        text: the text for this.
-      - image: reach_04.png
-        text: the text for this.
-        
+      - image: T3R_02.png
+        text: the text for this
+      - image: T3R_03.png
+        text: the text for this
+      - image: T3R_04.png
+        text: the text for this
+      - image: T3r_05.png
+
   - title: Prints
     slug: Prints
     description: A collection of printed items i have designed.
@@ -111,26 +131,6 @@ portfolio:
       - image: DHY_3.png
         text: the text for it.
         
-  - title: The Three Radical
-    slug: three-radical
-    description: Interactive sculpture that encapsulates the Hebrew language roots in a black box.
-    tags:
-      - Concept
-      - Code
-      - Product Design
-      - Electronics
-    thumbnail: T3R_tn.png
-    gallery:
-      - image: T3R_01.png
-        text: the text for this.
-      - image: T3R_02.png
-        text: the text for this
-      - image: T3R_03.png
-        text: the text for this
-      - image: T3R_04.png
-        text: the text for this
-      - image: T3r_05.png
-      
   - title: 1.2 Freeze
     slug: 12-freeze
     description: 1.2 Freeze is a new iOS adaptation of a worldwide social game for kids, presenting a new concept in mobile user experience.
