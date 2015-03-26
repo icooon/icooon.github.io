@@ -42,8 +42,8 @@ portfolio:
   - title: Lehava
     slug: lehava
     description: A character design for a mobile game, based a brief of energetic, amorphic & powerful.
-    link_title: Lehava on the AppStore
-    link_url: https://www.google.com/
+    link_title:
+    link_url: 
     tags:
       - Illustration
     thumbnail: LEHAVA_tn.png
@@ -58,8 +58,8 @@ portfolio:
   - title: SRGS ™
     slug: srgs
     description: An online sales catalogue for UK-based textile importer. This catalogue enables way communication; new goods to SRGS clients, and sales orders back for the company.
-    link_title: SRGS Website
-    link_url: https://www.google.com/
+    link_title: 
+    link_url:
     tags:
       - UX
       - Branding
@@ -111,7 +111,7 @@ portfolio:
     slug: rrr
     description: ✈ Rrrr™ turns your iPhone into a sound generating toy, presenting a new concept in user experience.
     link_title: RRR on the AppStore
-    link_url: https://www.google.com/
+    link_url: https://itunes.apple.com/us/app/rrrr/id496550442?mt=8
     tags:
       - Product
       - UI
@@ -126,8 +126,8 @@ portfolio:
   - title: Buddha Burgers
     slug: buddha-burgers
     description: Brand design for an Israeli vegan food chain.
-    link_title: Buddha Burgers Website
-    link_url: https://www.google.com/
+    link_title: 
+    link_url: 
     tags:
       - Branding
     thumbnail: BB_tn.png
@@ -150,8 +150,8 @@ portfolio:
   - title: Digital Handball
     slug: digital-handball
     description: An educational application that aims to teach maths to kids.
-    link_title: Handball Website
-    link_url: https://www.google.com/
+    link_title:
+    link_url: 
     tags:
       - UX
       - UI
@@ -168,7 +168,7 @@ portfolio:
     slug: 12-freeze
     description: 1.2 Freeze is a new iOS adaptation of a worldwide social game for kids, presenting a new concept in mobile user experience.
     link_title: 1.2 Freeze on the AppStore
-    link_url: https://www.google.com/
+    link_url: https://itunes.apple.com/us/app/1-2-freeze/id837821853?mt=8
     credits: Development by Dagan Shtifman; Illustration by Yonatan Popper
     tags:
       - Game Design
@@ -189,7 +189,7 @@ portfolio:
     slug: ar-invaders
     description: The award-winning augmented reality mobile game. Released in 2009, AR Invaders was a groundbreaking project in UX in the mobile world.
     link_title: AR Invaders on the AppStore
-    link_url: https://www.google.com/
+    link_url: https://itunes.apple.com/us/app/ar-invaders/id406133349?mt=8
     credits: Development by Dagan Shtifman
     tags:
       - Concept
@@ -210,8 +210,8 @@ portfolio:
   - title: Tal Fiberglass
     slug: tal-fiberglass
     description: Brand and web design for a local business.
-    link_title: Tal Fiberglass Website
-    link_url: https://www.google.com/
+    link_title: 
+    link_url: 
     tags:
       - Branding
       - UX
@@ -229,7 +229,7 @@ portfolio:
     slug: coloroll
     description: An iOS game for color lovers.
     link_title: Coloroll on the AppStore
-    link_url: http://www.example.com
+    link_url: https://itunes.apple.com/us/app/coloroll/id327904827?mt=8
     tags:
       - UX
       - UI
@@ -246,8 +246,8 @@ portfolio:
   - title: A Cat
     slug: a-cat
     description: Picnic with Robots EP design.
-    link_title:
-    link_url:
+    link_title: Band's music
+    link_url: https://itunes.apple.com/us/album/rip-out-single/id954973665
     tags:
       - Print
     thumbnail: HATUL_EP_tn.png
@@ -262,8 +262,8 @@ portfolio:
   - title: Logos
     slug: logos
     description: Logo work man,
-    link_title: Logos
-    link_url: http://www.example.com/
+    link_title: 
+    link_url: 
     tags:
       - Design
     thumbnail: logos_tn.png
@@ -278,8 +278,8 @@ portfolio:
   - title: Petri
     slug: petri
     description: An experimental concept in future branding, Petri is a video clip that generates 300 different flyers for a dance party every time it runs.
-    link_title: Petri
-    link_url: http://www.example.com/
+    link_title: 
+    link_url: 
     tags:
       - UX
       - Design
@@ -294,8 +294,8 @@ portfolio:
   - title: Viewziq
     slug: viewziq
     description: A software tool for composing and playing sounds & visuals that interact.
-    link_title: Viewziq Website
-    link_url: http://www.example.com/
+    link_title: 
+    link_url: 
     credits: Music by Paul Walsh
     tags:
       - Concept
