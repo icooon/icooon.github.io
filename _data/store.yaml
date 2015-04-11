@@ -49,11 +49,11 @@ portfolio:
     thumbnail: TFG_tn.png
     gallery:
       - image: TFG_01.png
-        text: the text for it.
+        text: Home page
       - image: TFG_02.png
-        text: the text for it.
+        text: Product gallery
       - image: TFG_03.png
-        text: teh text for it.  
+        text: Contact Page
 
   - title: AR Invaders
     slug: ar-invaders
@@ -69,13 +69,13 @@ portfolio:
     thumbnail: ARI_tn.png
     gallery:
       - image: ARI_01.png
-        text: the text for it
+        text: Splash screen :|: This Game won “Best real world game” at ‘IMGA’ 2010, the biggest mobile game competition on earth.
       - image: ARI_02.png
-        text: the text for it.
+        text: This was one of the first Augmented reality games for mobile, designing UI and content for the camera view was a real challenge! 
       - image: ARI_03.png
-        text: the text for it.
+        text: Game menu
       - image: ARI_04.png
-        text: the text for it.
+        text: End of a level screen inside the camera view
         
   - title: The Three Radical
     slug: three-radical
@@ -88,13 +88,13 @@ portfolio:
     thumbnail: T3R_tn.png
     gallery:
       - image: T3R_01.png
-        text: the text for this.
+        text: Front view
       - image: T3R_02.png
-        text: the text for this
+        text: 
       - image: T3R_03.png
-        text: the text for this
+        text: 
       - image: T3R_04.png
-        text: the text for this
+        text: 
       - image: T3r_05.png
 
   - title: Prints
