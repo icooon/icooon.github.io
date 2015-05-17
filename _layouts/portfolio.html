@@ -161,13 +161,29 @@
                      data-cycle-timeout="0"
                      data-cycle-prev=".gallery-{{ item.slug }}-prev"
                      data-cycle-next=".gallery-{{ item.slug }}-next"
+                     data-cycle-loader=true
+                     data-cycle-progressive="#{{ item.slug }}-lazy"
                      class="set-panel cycle-slideshow">
-                    {% for thing in item.gallery %}
+
+                    {% for thing in item.gallery limit:1 %}
                     <div class="gallery-item">
                         <div class="gallery-item-image"><img src="{{ site.data.store.image_base }}{{ thing.image }}" alt="{{ thing.text }}"/></div>
                         <div class="gallery-item-text">{{ thing.text }}</div>
                     </div>
                     {% endfor %}
+
+                    <script id="{{ item.slug }}-lazy" type="text/cycle" data-cycle-split="---">
+                    {% for thing in item.gallery offset:1 %}
+                    <div class="gallery-item">
+                      <div class="gallery-item-image">
+                        <img src="{{ site.data.store.image_base }}{{ thing.image }}" alt="{{ thing.text }}"/>
+                      </div>
+                      <div class="gallery-item-text">{{ thing.text }}</div>
+                    </div>
+                    ---
+                    {% endfor %}
+                    </script>
+
                 </div>
 
                 <div class="next-panel">
