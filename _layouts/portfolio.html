@@ -25,7 +25,8 @@
     <body id="top">
 
         <header>
-            <div class="wrapper">
+          <div class="wrapper">
+            <div class="section-border"></div>
                 <div class="icon">
                     <img src="{{ site.data.store.image_base }}{{ site.data.store.icon }}" alt="{{ site.data.store.name }}"/>
                 </div>
@@ -40,6 +41,7 @@
                     <a href="#contact" class="contact-nav">Contact</a>
                     <a href="#contact" class="linkedin-nav">LinkedIn</a>
                 </nav>
+                <div class="border"></div>
             </div>
         </header>
 
@@ -63,6 +65,7 @@
                     </div>
                 </div>
                 {% endfor %}
+                <div class="section-border"></div>
             </div>
         </section>
 
@@ -80,6 +83,7 @@
                         {% endfor %}
                     </ul>
                 </div>
+                <div class="section-border-inverse"></div>
             </div>
         </section>
 
@@ -94,7 +98,7 @@
                             <img src="{{ site.data.store.image_base }}{{ item.thumbnail }}" alt="" />
                         </div>
                         <div class="presence-title">
-                            <h2>{{ item.title }}</h2>
+                            <h3>{{ item.title }}</h3>
                             <p><a href="{{ item.link_url }}" title="{{ item.link_title }}">{{ item.link_title }}</a></p>
                         </div>
                         <div class="presence-description">
@@ -125,6 +129,7 @@
                 </section>
 
                 <section id="credits">
+                  <!--
                     <a ng-repeat="item in data" href="{{ item.url }}" title="{{ item.title }}">
                         {{ item.title }}
                     </a>
@@ -132,6 +137,7 @@
                         <a href="mailto:{{ site.data.store.email }}">{{ site.data.store.email }}</a>&nbsp;&nbsp;
                         <a href="tel:{{ site.data.store.phone }}">{{ site.data.store.phone }}</a>
                     </span>
+                  -->
                 </section>
 
             </div>

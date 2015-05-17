@@ -20,15 +20,15 @@ skills:
 
 presence:
   - title: LinkedIn
-    description: Some short description here.
+    description: Less images and more words about me.
     link_url: http://www.example.com/
-    link_title: Link Title
+    link_title: My Linkedin account
     thumbnail: linkedin_img.png
 
   - title: Anallogic
-    description: Some short description here.
-    link_url: http://www.example.com/
-    link_title: Link Title
+    description: Ofir's art work.
+    link_url: http://www.anallogic.com/
+    link_title: Anallogic
     thumbnail: ANALLOGIC_img.png
 
 credits:
