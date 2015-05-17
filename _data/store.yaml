@@ -185,6 +185,8 @@ portfolio:
         text: the text for this.
       - image: petri_02.png
         text: the text for this.
+      - image: petri_03.png
+        text: the text for this.
 
   - title: Reach
     slug: reach
