@@ -21,7 +21,7 @@ skills:
 presence:
   - title: LinkedIn
     description: Less images and more words about me.
-    link_url: http://www.example.com/
+    link_url: https://il.linkedin.com/pub/ofir-liberman/7/293/72
     link_title: My Linkedin account
     thumbnail: linkedin_img.png
 

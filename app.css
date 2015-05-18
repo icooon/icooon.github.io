@@ -732,6 +732,7 @@ button {
   font-size: 2em;
   padding-top: 3%;
   font-family: "Oswald";
+  font-weight: bold;
 }
 #gallery .prev-panel {
   -webkit-box-sizing: border-box;
