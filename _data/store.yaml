@@ -187,6 +187,8 @@ portfolio:
         text: The printed output from a single run of the application (About 350 different flyers)
       - image: petri_02.png
         text: Random selection from a print run
+      - image: petri_03.png
+        text:
 
   - title: Reach
     slug: reach
