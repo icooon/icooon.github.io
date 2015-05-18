@@ -53,7 +53,7 @@ portfolio:
       - image: TFG_02.png
         text: Product gallery
       - image: TFG_03.png
-        text: Contact Page
+        text: Contact page
 
   - title: AR Invaders
     slug: ar-invaders
@@ -90,12 +90,13 @@ portfolio:
       - image: T3R_01.png
         text: Front view
       - image: T3R_02.png
-        text: 2
+        text: The box in action
       - image: T3R_03.png
-        text: 3
+        text: The box in space
       - image: T3R_04.png
-        text: 4
+        text: Back view
       - image: T3r_05.png
+        text: lso view
 
   - title: Prints
     slug: Prints
@@ -107,27 +108,27 @@ portfolio:
     thumbnail: prints_tn.png
     gallery:
       - image: HSS_1.png
-        text: the text for it
+        text:
       - image: HSS_2.png
-        text: the text for it.
+        text:
       - image: HSS_3.png
-        text: the text for it.
+        text:
       - image: HSS_4.png
-        text: the text for it.
+        text:
       - image: HS_1.png
-        text: the text for it.
+        text:
       - image: HS_2.png
-        text: the text for it.
+        text:
       - image: HS_3.png
-        text: the text for it.
+        text:
       - image: HS_4.png
-        text: the text for it.
+        text:
       - image: DHY_1.png
-        text: the text for it.
+        text:
       - image: DHY_2.png
-        text: the text for it.
+        text:
       - image: DHY_3.png
-        text: the text for it.
+        text:
 
   - title: 1.2 Freeze
     slug: 12-freeze
@@ -143,12 +144,13 @@ portfolio:
     thumbnail: 12F_tn.png
     gallery:
       - image: 12F_01.png
-        text: the text for it.
+        text: The game is played from across the room, all UI elements needed to be clear and visible
       - image: 12F_02.png
-        text: the text for it.
+        text: End of game screen
       - image: 12F_03.png
-        text: the text for it.
+        text: Splash screen with all the different names of this popular game from around the world
       - image: 12F_04.png
+        text: Snapshot from the game dynamic in the physical world
 
   - title: Buddha Burgers
     slug: buddha-burgers
@@ -158,19 +160,19 @@ portfolio:
     thumbnail: BB_tn.png
     gallery:
       - image: BB_01.png
-        text: the text for it.
+        text:
       - image: BB_02.png
-        text: the text for it.
+        text:
       - image: BB_03.png
-        text: the text for it.
+        text:
       - image: BB_04.png
-        text: the text for it.
+        text:
       - image: BB_05.png
-        text: the text for it.
+        text:
       - image: BB_06.png
-        text: the text for it.
+        text:
       - image: BB_07.png
-        text: the text for it.
+        text:
 
   - title: Petri
     slug: petri
@@ -182,9 +184,9 @@ portfolio:
     thumbnail: petri_tn.png
     gallery:
       - image: petri_01.png
-        text: the text for this.
+        text: The printed output from a single run of the application (About 350 different flyers)
       - image: petri_02.png
-        text: the text for this.
+        text: Random selection from a print run
 
   - title: Reach
     slug: reach
@@ -196,13 +198,13 @@ portfolio:
     thumbnail: reach_tn.png
     gallery:
       - image: reach_01.png
-        text: the text for this.
+        text: Home page
       - image: reach_02.png
-        text: the text for this.
+        text: Sales page
       - image: reach_03.png
-        text: the text for this.
+        text: User management page
       - image: reach_04.png
-        text: the text for this.
+        text: Mailer analytics page
 
   - title: Viewziq
     slug: viewziq
@@ -217,19 +219,19 @@ portfolio:
     thumbnail: ZV_tn.png
     gallery:
       - image: ZV_01.png
-        text: the text for this.
+        text: Splash Screen
       - image: ZV_02.png
-        text: the text for this
+        text: Tree sound & visual synthesisers and a canvas for writing the song parts
       - image: ZV_03.png
-        text: the text for this
+        text: The synths are in charge mode for composing the performance
       - image: ZV_04.png
-        text: the text for this
+        text: Synth I/O setup for performance
       - image: ZV_05.png
-        text: the text for this
+        text: Snap from  the live performance
       - image: ZV_06.png
-        text: the text for this
+        text: Snap from  the live performance
       - image: ZV_07.png
-        text: the text for this
+        text: Snap from  the live performance
 
   - title: A Cat
     slug: a-cat
@@ -241,11 +243,11 @@ portfolio:
     thumbnail: HATUL_EP_tn.png
     gallery:
       - image: HATUL_EP_01.gif
-        text: the text for it
+        text: The transparent cover allows the CD to be part of the composition
       - image: HATUL_EP_02.png
-        text: the text for it
+        text:
       - image: HATUL_EP_03.png
-        text: the text for it
+        text:
 
   - title: Logos
     slug: logos
@@ -255,11 +257,11 @@ portfolio:
     thumbnail: logos_tn.png
     gallery:
       - image: logos_01.png
-        text: the text for this.
+        text:
       - image: logos_02.png
-        text: the text for this.
+        text:
       - image: logos_03.png
-        text: the text for this.
+        text:
 
   - title: RRRR ™
     slug: rrr
@@ -273,9 +275,9 @@ portfolio:
     thumbnail: RRR_tn.png
     gallery:
       - image: RRR_01.png
-        text: the text for it.
+        text: A realistic UI for operating the game
       - image: RRR_02.png
-        text: the text for it.
+        text: A realistic UI for fueling the plane
 
   - title: SRGS ™
     slug: srgs
@@ -287,11 +289,11 @@ portfolio:
     thumbnail: srgs_tn.png
     gallery:
       - image: srgs_01.png
-        text: the text for it
+        text: Home page
       - image: srgs_02.png
-        text: the text for it.
+        text: Fabric collections and fabric list view
       - image: srgs_03.png
-        text: the text for it
+        text: Item view
 
   - title: Coloroll
     slug: coloroll
@@ -305,11 +307,11 @@ portfolio:
     thumbnail: coloroll_tn.png
     gallery:
       - image: coloroll_01.png
-        text: the text it.
+        text: Game screen view
       - image: coloroll_02.png
-        text: the text for it.
+        text: Game menu
       - image: coloroll_03.png
-        text: the text for it.
+        text: Game over screen (animated with generative colors)
 
   - title: Digital Handball
     slug: digital-handball
@@ -320,11 +322,11 @@ portfolio:
     thumbnail: DHB_tn.png
     gallery:
       - image: DHB_01.png
-        text: the text for it.
+        text:
       - image: DHB_02.png
-        text: the text for it.
+        text:
       - image: DHB_03.png
-        text: the text for it.
+        text:
 
   - title: Lehava
     slug: lehava
@@ -334,8 +336,8 @@ portfolio:
     thumbnail: LEHAVA_tn.png
     gallery:
       - image: LEHAVA_01.png
-        text: the text for it.
+        text: Game level design
       - image: LEHAVA_02.png
-        text: the text for it,
+        text: Sketches from the design process
       - image: LEHAVA_03.png
-        text: the text for it.
+        text: Character design and color scene for the game
