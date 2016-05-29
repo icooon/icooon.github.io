@@ -39,6 +39,22 @@ credits:
     url: http://www.example.com/
 
 portfolio:
+  - title: Bagamba Website
+    slug: Bagamba Website
+    description: Brand and web design for a local business.
+    tags:
+      - Branding
+      - UX
+      - UI
+    thumbnail: BGW_tn.png
+    gallery:
+      - image: bgmb_Web_1.gif
+        text: Home page
+      - image: bgmb_Web_1.gif
+        text: 
+      - image: bgmb_Web_1.gif
+        text: 
+        
   - title: Tal Fiberglass
     slug: tal-fiberglass
     description: Brand and web design for a local business.
