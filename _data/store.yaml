@@ -50,10 +50,10 @@ portfolio:
     gallery:
       - image: bgmb_Web_1.gif
         text: Home page
-      - image: bgmb_Web_2.gif
-        text: 
-      - image: bgmb_Web_3.gif
-        text: 
+      - image: bgmb_Web_2.png
+        text:
+      - image: bgmb_Web_3.png
+        text:
         
   - title: Tal Fiberglass
     slug: tal-fiberglass
