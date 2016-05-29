@@ -339,7 +339,7 @@ portfolio:
       - Illustration
     thumbnail: LEHAVA_tn.png
     gallery:
-      - image: LEHAVA_01.png
+      - image: LEHAVA_01.gif
         text: Game level design
       - image: LEHAVA_02.png
         text: Sketches from the design process
