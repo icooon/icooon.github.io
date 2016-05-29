@@ -186,8 +186,10 @@ portfolio:
       - image: petri_01.png
         text: The printed output from a single run of the application (About 350 different flyers)
       - image: petri_02.gif
-        text: Random selection from a print run
+        text: Random screenshots from the generative movie.
       - image: petri_03.png
+        text:
+      - image: petri_04.png
         text:
 
   - title: Reach
