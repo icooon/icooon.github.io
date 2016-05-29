@@ -185,7 +185,7 @@ portfolio:
     gallery:
       - image: petri_01.png
         text: The printed output from a single run of the application (About 350 different flyers)
-      - image: petri_02.png
+      - image: petri_02.gif
         text: Random selection from a print run
       - image: petri_03.png
         text:
