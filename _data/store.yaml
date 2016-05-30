@@ -39,6 +39,26 @@ credits:
     url: http://www.example.com/
 
 portfolio:
+  - title: Video game Grapics 
+    slug: Game-graphics
+    description: Design & concept for games.
+    tags:
+      - Graphic Design
+      - UX
+      - UI
+    thumbnail: BMG_tn.png
+    gallery:
+      - image: GMG_mok_01.gif
+        text: L.S.Dance Menu
+      - image: GMG_mok_02.png
+        text: L.S.Dance Menu
+      - image: GMG_mok_03.png
+        text: L.S.Dance Level Menu
+      - image: GMG_mok_04.png
+        text: Catch the drop - manu
+      - image: GMG_mok_05.png
+        text: Catch the drop - level
+        
   - title: Bagamba Website
     slug: Bagamba-Website
     description: Brand and web design for a local business.
