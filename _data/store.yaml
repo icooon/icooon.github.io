@@ -51,9 +51,9 @@ portfolio:
       - image: bgmb_Web_1.gif
         text: Home page
       - image: bgmb_Web_2.png
-        text: Product gallery
+        text: Custon brand icon set
       - image: bgmb_Web_3.png
-        text: Contact page
+        text: Header + visual concept
         
   - title: Tal Fiberglass
     slug: tal-fiberglass
