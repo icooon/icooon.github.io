@@ -75,6 +75,26 @@ portfolio:
       - image: bgmb_Web_3.png
         text: Header + visual concept
         
+  - title: aCAT EP2
+    slug: aCAt-2nd
+    description: Concept & design for CD release
+    tags:
+      - Branding
+      - Visual making
+      - Web design
+    thumbnail: ACAT2_tn.png
+    gallery:
+      - image: ACAT2_1.png
+        text: Front cover
+      - image: ACAT2_2.png
+        text: Bandcamp page
+      - image: ACAT2_3.png
+        text: Cover and CD
+      - image: ACAT2_4.png
+        text: Detail
+      - image: ACAT2_5.png
+        text: Printed...
+  
   - title: Tal Fiberglass
     slug: tal-fiberglass
     description: Brand and web design for a local business.
