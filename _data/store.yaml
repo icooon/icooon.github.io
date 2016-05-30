@@ -387,7 +387,7 @@ portfolio:
     description: Trendy blog design
     tags:
       - Web design
-    thumbnail: LEHAVA_tn.png
+    thumbnail: BLOG_tn.png
     gallery:
       - image: Blog_1.gif
         text: Home page
