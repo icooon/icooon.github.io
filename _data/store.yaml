@@ -48,12 +48,12 @@ portfolio:
       - UI
     thumbnail: BGW_tn.png
     gallery:
-      - image: bgmb_Web_3.png
+      - image: TFG_01.png
         text: Home page
-      - image: bgmb_Web_2.png
-        text: Home page
-      - image: bgmb_Web_3.png 
-        text: Home page
+      - image: TFG_02.png
+        text: Product gallery
+      - image: TFG_03.png
+        text: Contact page
         
   - title: Tal Fiberglass
     slug: tal-fiberglass
