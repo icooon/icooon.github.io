@@ -381,3 +381,16 @@ portfolio:
         text: Sketches from the design process
       - image: LEHAVA_03.png
         text: Character design and color scene for the game
+        
+  - title: Blog Design
+    slug: Blog
+    description: Trendy blog design
+    tags:
+      - Web design
+    thumbnail: LEHAVA_tn.png
+    gallery:
+      - image: Blog_1.gif
+        text: Home page
+      - image: Blog_2.png
+        text: Header
+   
